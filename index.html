@@ -12,12 +12,12 @@
     <title>LOGIN</title>
 </head>
 <body>
-    <div class="container-form">
+    <div class="container-form register">
         <div class="information">
             <div class="info-childs">
                 <h2>Bienvenido</h2>
-                <p>Para ingresar inicia sesión con tus datos</p>
-                <input type="button" value="Iniciar Sesión">
+                <p>Para ingresar, inicia sesión con tus datos</p>
+                <input id="sign-in" type="button" value="Iniciar Sesión">
             </div>
         </div>    
         <div class="form-information">
@@ -47,7 +47,42 @@
             </div>
         </div>
         </div>
+    </div>
+
+
+    <div class="container-form login hide">
+        <div class="information">
+            <div class="info-childs">
+                <h2>¡Bienvenido nuevamente!</h2>
+                <p>Si aún no tienes una cuenta, registrate aquí</p> 
+                <input id="sign-up" type="button" value="Registrarse">
+            </div>
+        </div>    
+        <div class="form-information">
+            <div class="form-information-childs">
+                <h2>Iniciar Sesión</h2>
+                <div class="icons">
+                    <i class='bx bxl-google'></i>
+                    <i class='bx bxl-github'></i>
+                    <i class='bx bxl-linkedin'></i>
+                </div>
+                <p>o iniciar sesión con una cuenta</p>
+                <form class="form">
+                    <label>
+                        <i class='bx bx-envelope'></i>
+                        <input type="email" placeholder="Email">
+                    </label>
+                    <label>
+                        <i class='bx bx-lock-alt'></i>
+                        <input type="password" placeholder="Contraseña">
+                    </label>
+                    <input type="submit" value="Iniciar Sesión">
+                </form>
+            </div>
+        </div>
+        </div>
     </div>    
+
     <script src="/asets/js/index.js"></script>
 </body>
 </html>
